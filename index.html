@@ -4,23 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>St. Xavier's School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <script src="main.js"></script>
 
     <ul>
         <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#campus">Campus Life</a></li>
         <li class="link"><a href="#achievments">Achievments</a></li>
         <li class="link"><a href="#whatsnew">What's New</a></li>
         <li class="link"><a href="#weeklynewsletter">Weekly Newsleter</a></li>
         <li class="link"><a href="#contactus">Contact Us</a></li>
     </ul>
+
     <section id="home">
         <marquee style="font-family: arial; font-size:20px;" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Celebrating the 60th year of St. Xavier's School</marquee>
         <div>
@@ -28,7 +34,52 @@
             <h3>St. Xavier's School</h3>
         </div>
     </section>
-    <section id="contactus">
+    <section id="campus" class="abc">
+        <h1>Campus Life</h1>
+        <div id="div_container">
+            <div class="inside">
+                <h4>School Library</h4>
+                <img class="img" height="400px" src="https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <h5>Established in 1997</h5>
+            </div>
+            <div class="inside">
+                <h4>School Auditorium</h4>
+                <img class="img" height="400px" src="https://images.unsplash.com/photo-1565798846807-2af22c843402?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXVkaXRvcml1bSUyMHN0YWdlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <h5>Established in 2003</h5>
+            </div>
+            <div class="inside">
+                <h4>School Canteen</h4>
+                <img class="img" height="400px" src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGNhbnRlZW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+                <h5>Established in 2002</h5>
+            </div>
+        </div>
+    </section>
+    <section class="abc" id="achievments">
+        <h1>Achievments</h1>
+        <div class="divvv">
+            <h4 height="35px">Interschool Drawing and Painting competition, 1st position
+            </h4>
+            <h5 id="h4" onclick="movee()">Know more 🔽</h5>
+            <div class="hidden" id="hh1">
+                <p>Our school won the Interschool drawing and painting competition for class 3-4 in 2019</p>
+            </div>
+            <img height=150px src="https://images-na.ssl-images-amazon.com/images/I/71QE9eGvKpL._SY741_.jpg">
+        </div>
+        <div class="divvv">
+            <h4 height="35px">Interschool Debate competition, 2st position
+            </h4>
+            <h5 id="h42" onclick="move()">Know more 🔽</h5>
+            <div class="hidden" id="hh2">
+                <p>Our school won the Interschool Debate competition for class 9-11th in 2017</p>
+
+            </div>
+            <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/61aImOtYa7L._SY879_.jpg">
+        </div>
+
+    </section>
+
+
+    <section id="contactus" class="abc">
         <h1>Contact Us</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.303670202225!2d72.94901221443325!3d22.530294540201307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4c35cfee7839%3A0x32e83d2cd6d9095e!2sSt.%20Xavier&#39;s%20School!5e0!3m2!1sen!2sin!4v1618119766486!5m2!1sen!2sin" width="75%" height="50%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <br><br>
@@ -36,6 +87,5 @@
         <a href="https://www.facebook.com/" target="_blank"><img height=30px width=30px src="http://simpleicon.com/wp-content/uploads/facebook-2.png"> @stxaviersschool</a><br><br>
         <img height=20px width=20px src="https://cdn2.iconfinder.com/data/icons/mobile-web-app-vol-2/32/Phone_call_convertation_talk_hp_handphone_telephone-512.png"> +91 9898989898
     </section>
-</body>
 
-</html>
+</body></html>
